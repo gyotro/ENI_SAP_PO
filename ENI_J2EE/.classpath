@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_111"/>
+	<classpathentry kind="lib" path="//tsclient/C/Users/gdintrono/Documents/SAP/Librerie SAP per Mapping_moduli/com.sap.aii.af.cpa.svc.api.jar"/>
+	<classpathentry kind="lib" path="//tsclient/C/Users/gdintrono/Documents/SAP/Librerie SAP per Mapping_moduli/com.sap.aii.af.lib.mod.jar"/>
+	<classpathentry kind="lib" path="//tsclient/C/Users/gdintrono/Documents/SAP/Librerie SAP per Mapping_moduli/com.sap.aii.af.ms.ifc_api.jar"/>
+	<classpathentry kind="lib" path="//tsclient/C/Users/gdintrono/Documents/SAP/Librerie SAP per Mapping_moduli/com.sap.aii.af.ms.svc_api.jar"/>
+	<classpathentry kind="lib" path="//tsclient/C/Users/gdintrono/Documents/SAP/Librerie SAP per Mapping_moduli/com.sap.aii.af.svc_api.jar"/>
+	<classpathentry kind="lib" path="//tsclient/C/Users/gdintrono/Documents/SAP/Librerie SAP per Mapping_moduli/com.sap.aii.proxy.gen.jar"/>
+	<classpathentry kind="lib" path="//tsclient/C/Users/gdintrono/Documents/SAP/Librerie SAP per Mapping_moduli/com.sap.aii.proxy.svc_api.jar"/>
+	<classpathentry kind="lib" path="//tsclient/C/Users/gdintrono/Documents/SAP/Librerie SAP per Mapping_moduli/com.sap.aii.sec.svc_api.jar"/>
+	<classpathentry kind="lib" path="//tsclient/C/Users/gdintrono/Documents/SAP/Librerie SAP per Mapping_moduli/com.sap.aii.utilxi.core.jar"/>
+	<classpathentry kind="lib" path="//tsclient/C/Users/gdintrono/Documents/SAP/Librerie SAP per Mapping_moduli/com.sap.aii.utilxi.server.jar"/>
+	<classpathentry kind="lib" path="//tsclient/C/Users/gdintrono/Documents/SAP/Librerie SAP per Mapping_moduli/com.sap.xi.mapping.tool.lib_api.jar"/>
+	<classpathentry kind="lib" path="//tsclient/C/Users/gdintrono/Documents/SAP/Librerie SAP per Mapping_moduli/com.sap.xpi.ib.mapping.lib.jar"/>
+	<classpathentry kind="lib" path="//tsclient/C/Users/gdintrono/Documents/SAP/Librerie SAP per Mapping_moduli/commons-collections4-4.0.jar"/>
+	<classpathentry kind="lib" path="//tsclient/C/Users/gdintrono/Documents/SAP/Librerie SAP per Mapping_moduli/org.apache.commons.io-2.0.1-sources.jar.zip"/>
+	<classpathentry kind="lib" path="//tsclient/C/Users/gdintrono/Documents/SAP/Librerie SAP per Mapping_moduli/org.apache.commons.io-2.1-sources.jar.zip"/>
+	<classpathentry kind="lib" path="//tsclient/C/Users/gdintrono/Documents/SAP/Librerie SAP per Mapping_moduli/sap.com~tc~bl~guidgenerator~impl.jar"/>
+	<classpathentry kind="lib" path="//tsclient/C/Users/gdintrono/Documents/SAP/Librerie SAP per Mapping_moduli/sap.com~tc~bl~txmanagerimpl~plb~impl.jar"/>
+	<classpathentry kind="lib" path="//tsclient/C/Users/gdintrono/Documents/SAP/Librerie SAP per Mapping_moduli/sap.com~tc~je~appcontext_api~API.jar"/>
+	<classpathentry kind="lib" path="//tsclient/C/Users/gdintrono/Documents/SAP/Librerie SAP per Mapping_moduli/sap.com~tc~logging~java~impl.jar"/>
+	<classpathentry kind="lib" path="//tsclient/C/Users/gdintrono/Documents/SAP/Librerie SAP per Mapping_moduli/sap.com~tc~sec~ssf~core.jar"/>
+	<classpathentry kind="lib" path="//tsclient/C/Users/gdintrono/Documents/SAP/Librerie SAP per Mapping_moduli/sqljdbc.jar"/>
+	<classpathentry kind="lib" path="//tsclient/C/Users/gdintrono/Documents/SAP/Librerie SAP per Mapping_moduli/sqljdbc4-2.0.jar"/>
+	<classpathentry kind="lib" path="//tsclient/C/Users/gdintrono/Documents/SAP/LibrerieMappingSAP_PI/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="//tsclient/C/Users/gdintrono/Documents/SAP/LibrerieMappingSAP_PI/jdom-2.0.5.jar"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="//tsclient/C/Users/gdintrono/Documents/SAP/LibrerieMappingSAP_PI/commons-codec-1.4.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
