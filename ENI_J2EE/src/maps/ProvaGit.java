@@ -1,5 +1,5 @@
 package maps;
-//prova commit, prova Non Clone 2
+//prova commit, prova Clone 1
 public class ProvaGit {
 
 }
