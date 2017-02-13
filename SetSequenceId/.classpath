@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="ejbModule"/>
+	<classpathentry kind="con" path="sap.jee5">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.ejb"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="src" path=".apt_generated">
+		<attributes>
+			<attribute name="optional" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="E:/NWDS_75/NWCEIDE05_0-80000648/eclipse/Librerie SAP per Mapping_moduli/com.sap.aii.af.cpa.svc.api.jar"/>
+	<classpathentry kind="lib" path="E:/NWDS_75/NWCEIDE05_0-80000648/eclipse/Librerie SAP per Mapping_moduli/com.sap.aii.af.lib.mod.jar"/>
+	<classpathentry kind="lib" path="E:/NWDS_75/NWCEIDE05_0-80000648/eclipse/Librerie SAP per Mapping_moduli/com.sap.aii.af.ms.ifc_api.jar"/>
+	<classpathentry kind="lib" path="E:/NWDS_75/NWCEIDE05_0-80000648/eclipse/Librerie SAP per Mapping_moduli/com.sap.aii.af.ms.svc_api.jar"/>
+	<classpathentry kind="lib" path="E:/NWDS_75/NWCEIDE05_0-80000648/eclipse/Librerie SAP per Mapping_moduli/com.sap.aii.af.svc_api.jar"/>
+	<classpathentry kind="lib" path="E:/NWDS_75/NWCEIDE05_0-80000648/eclipse/Librerie SAP per Mapping_moduli/com.sap.aii.proxy.gen.jar"/>
+	<classpathentry kind="lib" path="E:/NWDS_75/NWCEIDE05_0-80000648/eclipse/Librerie SAP per Mapping_moduli/com.sap.aii.proxy.svc_api.jar"/>
+	<classpathentry kind="lib" path="E:/NWDS_75/NWCEIDE05_0-80000648/eclipse/Librerie SAP per Mapping_moduli/com.sap.aii.sec.svc_api.jar"/>
+	<classpathentry kind="lib" path="E:/NWDS_75/NWCEIDE05_0-80000648/eclipse/Librerie SAP per Mapping_moduli/com.sap.aii.utilxi.core.jar"/>
+	<classpathentry kind="lib" path="E:/NWDS_75/NWCEIDE05_0-80000648/eclipse/Librerie SAP per Mapping_moduli/com.sap.aii.utilxi.server.jar"/>
+	<classpathentry kind="lib" path="E:/NWDS_75/NWCEIDE05_0-80000648/eclipse/Librerie SAP per Mapping_moduli/com.sap.xi.mapping.tool.lib_api.jar"/>
+	<classpathentry kind="lib" path="E:/NWDS_75/NWCEIDE05_0-80000648/eclipse/Librerie SAP per Mapping_moduli/com.sap.xpi.ib.mapping.lib.jar"/>
+	<classpathentry kind="lib" path="E:/NWDS_75/NWCEIDE05_0-80000648/eclipse/Librerie SAP per Mapping_moduli/commons-collections4-4.0.jar"/>
+	<classpathentry kind="lib" path="E:/NWDS_75/NWCEIDE05_0-80000648/eclipse/Librerie SAP per Mapping_moduli/sap.com~tc~bl~guidgenerator~impl.jar"/>
+	<classpathentry kind="lib" path="E:/NWDS_75/NWCEIDE05_0-80000648/eclipse/Librerie SAP per Mapping_moduli/sap.com~tc~bl~txmanagerimpl~plb~impl.jar"/>
+	<classpathentry kind="lib" path="E:/NWDS_75/NWCEIDE05_0-80000648/eclipse/Librerie SAP per Mapping_moduli/sap.com~tc~je~appcontext_api~API.jar"/>
+	<classpathentry kind="lib" path="E:/NWDS_75/NWCEIDE05_0-80000648/eclipse/Librerie SAP per Mapping_moduli/sap.com~tc~logging~java~impl.jar"/>
+	<classpathentry kind="lib" path="E:/NWDS_75/NWCEIDE05_0-80000648/eclipse/Librerie SAP per Mapping_moduli/sap.com~tc~sec~ssf~core.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
