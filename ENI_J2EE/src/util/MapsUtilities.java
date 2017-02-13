@@ -58,7 +58,7 @@ import java.util.ResourceBundle;
 
 @SuppressWarnings("unused")
 public class MapsUtilities implements DinamicConfKeys
-{
+{  
 	public XmlUtil xuUtil = new XmlUtil();
 	public Map map = null;
 	public TransformationInput inputTr;
