@@ -60,7 +60,7 @@ public class SetSequenceId implements SessionBean, TimedObject {
 	private MessageKey amk;
 	private AuditAccess Audit;
 
-	private final String auditString = "com.eni.sap.pi.af.SetSequenceId_v2 - ";
+	private final String auditString = "SetSequenceId_v2 - ";
 
 	/*
 	 * (non-Javadoc)
