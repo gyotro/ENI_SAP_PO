@@ -79,6 +79,7 @@ public class SetCorrelation_ID implements SessionBean, TimedObject
     	public Payload pXml;
     	public Element eFile = null;
     	Node OutputRoot;
+    	private final String auditString = "SetCorrelationId - ";
 		private Object xpathFac;
 
     	/* (non-Javadoc)
@@ -164,7 +165,7 @@ public class SetCorrelation_ID implements SessionBean, TimedObject
     		{
     			e.printStackTrace();
     		}
-    		audit.addAuditLogEntry(key, AuditLogStatus.SUCCESS, "SyncAsyncBridgeBean: Module called");
+    		audit.addAuditLogEntry(key, AuditLogStatus.SUCCESS, auditString + ": Module called");
     		
     		pXml = msg.getMainPayload();
     		
@@ -185,7 +186,7 @@ public class SetCorrelation_ID implements SessionBean, TimedObject
     		//sItem = moduleContext.getContextData("XML.NodoPadre");
     		sMessID_child = moduleContext.getContextData("xpath");
     		
-    		audit.addAuditLogEntry(key, AuditLogStatus.SUCCESS, "SyncAsyncBridgeBean: Input Parameters correctly obtained");
+    		audit.addAuditLogEntry(key, AuditLogStatus.SUCCESS, auditString + ": Input Parameters correctly obtained");
     		
     		// Buscamos el Message ID
     		/*
@@ -205,7 +206,7 @@ public class SetCorrelation_ID implements SessionBean, TimedObject
 				e1.printStackTrace();
 			}
 			
-			this.audit.addAuditLogEntry(key, AuditLogStatus.SUCCESS, "Message ID: " +  msgUUID);
+			this.audit.addAuditLogEntry(key, AuditLogStatus.SUCCESS, auditString + ":Message ID: " +  msgUUID);
 			
 			// Convert message ID to UUID format
 			if(!(msgUUID.length() > 32))
@@ -213,7 +214,7 @@ public class SetCorrelation_ID implements SessionBean, TimedObject
 			else 
 				msgUUID = msgUUID;
 			
-			audit.addAuditLogEntry(key, AuditLogStatus.SUCCESS, "Convert to UUID: " +  msgUUID);
+			audit.addAuditLogEntry(key, AuditLogStatus.SUCCESS, auditString + ":Convert to UUID: " +  msgUUID);
 			
 			// Set UUID as message correlation ID    		
     		try 
@@ -224,7 +225,7 @@ public class SetCorrelation_ID implements SessionBean, TimedObject
     		{	
     			throw new ModuleException("Unable to set the CorrelationID - " + e.getMessage());
     		}
-    		audit.addAuditLogEntry(key, AuditLogStatus.SUCCESS, "SyncAsyncBridgeBean: Correlation ID correctly setted");
+    		audit.addAuditLogEntry(key, AuditLogStatus.SUCCESS, auditString + ": Correlation ID correctly setted");
 
     		try 
     		{
