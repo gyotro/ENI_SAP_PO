@@ -46,8 +46,8 @@ import org.w3c.dom.traversal.NodeIterator;
  *         deve estrarre il valore per creare la coda EOIO. xpath.1 YES Si
  *         possono specificare n campi a piacere per creare la coda EOIO. La
  *         coda viene creata concatenando i valori dei campi specificati da
- *         tutti i parametri â€œxpath.â€ separator YES Se Ã¨ stato utilizzato
- *         piÃ¹ di un parametro â€œxpath.â€, i valori trovati per ognuna delle
+ *         tutti i parametri Ã¢â‚¬Å“xpath.Ã¢â‚¬Â� separator YES Se ÃƒÂ¨ stato utilizzato
+ *         piÃƒÂ¹ di un parametro Ã¢â‚¬Å“xpath.Ã¢â‚¬Â�, i valori trovati per ognuna delle
  *         espressioni XPATH sono concatenati utilizzando come separatore il
  *         carattere specificato da questo p240\m prefix YES Imposta il
  *         prefisso della coda, e.g. XBQIFB
@@ -60,7 +60,7 @@ public class SetSequenceId implements SessionBean, TimedObject {
 	private MessageKey amk;
 	private AuditAccess Audit;
 
-	private final String auditString = "com.eni.sap.pi.af.SetSequenceId - ";
+	private final String auditString = "com.eni.sap.pi.af.SetSequenceId_v2 - ";
 
 	/*
 	 * (non-Javadoc)
