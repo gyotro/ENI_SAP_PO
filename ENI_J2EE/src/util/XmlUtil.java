@@ -65,7 +65,7 @@ import com.sap.aii.mapping.api.*;
  */
 
 @SuppressWarnings("unused")
-public class XmlUtil {
+public class XmlUtil{
 	public final static int iALIGN_LEFT = 0;
 	public final static int iALIGN_RIGHT = 1;
 

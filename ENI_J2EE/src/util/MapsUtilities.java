@@ -68,13 +68,13 @@ public class MapsUtilities implements DinamicConfKeys
 	
 	public MapsUtilities(TransformationInput input, TransformationOutput output)
 	{	
-		inputTr = input;
-		outputTr = output;
+		this.inputTr = input;
+		this.outputTr = output;
 		//rbResource = PropertyResourceBundle.getBundle( sMAP_PROPERTIES );
 	}
 	public MapsUtilities(TransformationInput input)
 	{	
-		inputTr = input;
+		this.inputTr = input;
 	}
 
 	public MapsUtilities()

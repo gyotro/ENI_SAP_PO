@@ -225,7 +225,7 @@ public class SetCorrelation_ID implements SessionBean, TimedObject
     		{	
     			throw new ModuleException("Unable to set the CorrelationID - " + e.getMessage());
     		}
-    		audit.addAuditLogEntry(key, AuditLogStatus.SUCCESS, auditString + ": Correlation ID correctly setted");
+    		audit.addAuditLogEntry(key, AuditLogStatus.SUCCESS, auditString + ": Correlation ID correctly set");
 
     		try 
     		{
